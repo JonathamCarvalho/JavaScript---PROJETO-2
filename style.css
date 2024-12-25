@@ -80,3 +80,84 @@ button:active{
     flex-wrap: nowrap;
     justify-content: center;
 }
+
+@media screen and (max-width:855px){
+
+        .img-sorteio{
+            width: 100%;
+            height: auto;
+        }
+
+        h2{
+            width: 100%;
+            height: auto;
+        }
+
+        .section-input{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            margin-left: 10px;
+        }
+
+        input{
+            width: 100%;
+        }
+        
+        .button-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+            height: auto; 
+            width: 100%;
+        }
+    
+}
+
+@media screen and (max-width:480px){
+
+    .section-button{
+        width: 225px;
+    }
+
+}
+
+@media screen and (max-width:436px){
+
+    h2{
+        font-size: 28px;
+    }
+
+    input{
+        height: 57px;
+        font-size: 30px;
+    }
+
+    .section-button{
+        width: 207px;
+        font-size: 26px;
+        height: 57px;
+    }
+
+}
+
+@media screen and (max-width:333px){
+
+    h2{
+        font-size: 23px;
+    }
+    
+    input{
+        height: 44px;
+        font-size: 23px;
+    }
+
+    .section-button{
+        width: 140px;
+        font-size: 19px;
+        height: 51px;
+        margin-top: 23px;
+    }
+
+}
